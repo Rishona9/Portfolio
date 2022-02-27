@@ -1,6 +1,67 @@
+body {
+  background-color: #112240;
+  color: white;
+}
 .initials {
+  color: #112240;
   max-width: 100px;
   max-height: auto;
   padding: 5px 10px 5px 10px;
-  border: 3px solid black;
+  border: 3px solid #112240;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 180px;
+  font-size: 25px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.homepage-about {
+  text-align: center;
+  margin-top: 35px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+}
+
+.contact-me-link {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: rgb(227, 242, 253);
+  color: #112240;
+}
+.featured-projects {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 80px;
+}
+.runningProject-link {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: rgb(227, 242, 253);
+  color: #112240;
+}
+.weatherProject-link {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: rgb(227, 242, 253);
+  color: #112240;
 }
