@@ -1,13 +1,17 @@
+:root {
+  --background-color: #112240;
+  --navbar-color: rgb(227, 242, 253);
+}
 body {
-  background-color: #112240;
+  background-color: var(--background-color);
   color: white;
 }
 .initials {
-  color: #112240;
+  color: var(--background-color);
   max-width: 100px;
   max-height: auto;
   padding: 5px 10px 5px 10px;
-  border: 3px solid #112240;
+  border: 3px solid var(--background-color);
 }
 
 h3 {
@@ -40,8 +44,8 @@ h2 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  background: rgb(227, 242, 253);
-  color: #112240;
+  background: var(--navbar-color);
+  color: var(--background-color);
 }
 .featured-projects {
   display: block;
@@ -54,14 +58,14 @@ h2 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  background: rgb(227, 242, 253);
-  color: #112240;
+  background: var(--navbar-color);
+  color: var(--background-color);
 }
 .weatherProject-link {
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  background: rgb(227, 242, 253);
-  color: #112240;
+  background: var(--navbar-color);
+  color: var(--background-color);
 }
