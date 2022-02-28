@@ -21,6 +21,7 @@ h3 {
 }
 h1 {
   text-align: center;
+  font-size: 75px;
 }
 h2 {
   text-align: center;
@@ -29,6 +30,7 @@ h2 {
 .homepage-about {
   text-align: center;
   margin-top: 35px;
+  font-size: 18px;
 }
 .navigation-links {
   display: flex;
@@ -68,4 +70,7 @@ h2 {
   text-decoration: none;
   background: var(--navbar-color);
   color: var(--background-color);
+}
+p {
+  font-size: 18px;
 }
