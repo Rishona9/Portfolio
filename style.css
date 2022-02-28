@@ -5,6 +5,7 @@
 body {
   background-color: var(--background-color);
   color: white;
+  padding: 0px 100px 0px 100px;
 }
 .initials {
   color: var(--background-color);
@@ -38,14 +39,13 @@ h2 {
   justify-content: center;
 }
 .navigation-links a {
-  margin: 20px;
+  margin: 40px;
 }
 
 .contact-me-link {
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
-  text-decoration: none;
   background: var(--navbar-color);
   color: var(--background-color);
 }
@@ -53,21 +53,23 @@ h2 {
   display: block;
   text-align: center;
   font-size: 20px;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 .runningProject-link {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
-  text-decoration: none;
   background: var(--navbar-color);
   color: var(--background-color);
 }
 .weatherProject-link {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
-  text-decoration: none;
   background: var(--navbar-color);
   color: var(--background-color);
 }
