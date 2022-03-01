@@ -22,7 +22,7 @@ h3 {
 }
 h1 {
   text-align: center;
-  font-size: 75px;
+  font-size: 65px;
 }
 h2 {
   text-align: center;
@@ -38,11 +38,9 @@ h2 {
   margin-top: 40px;
   justify-content: center;
 }
-.navigation-links a {
-  margin: 40px;
-}
 
 .contact-me-link {
+  margin-top: 40px;
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
@@ -50,14 +48,11 @@ h2 {
   color: var(--background-color);
 }
 .featured-projects {
-  display: block;
   text-align: center;
   font-size: 20px;
   margin-top: 90px;
 }
 .runningProject-link {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
@@ -65,8 +60,6 @@ h2 {
   color: var(--background-color);
 }
 .weatherProject-link {
-  display: flex;
-  justify-content: center;
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
@@ -75,4 +68,5 @@ h2 {
 }
 p {
   font-size: 18px;
+  margin-top: 30px;
 }
