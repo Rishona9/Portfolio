@@ -81,8 +81,17 @@ body {
 .contact-section h1 {
   margin-top: 180px;
 }
+.contact-section a {
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--navbar-color);
+}
+.contact-section a:hover {
+  text-decoration: underline;
+}
 footer {
   text-align: center;
+  margin-top: 50px;
 }
 @media (max-width: 450px) {
   h1 {
@@ -93,6 +102,7 @@ footer {
   }
 
   footer {
+    margin-top: 10px;
     font-size: 15px;
     text-align: center;
   }
