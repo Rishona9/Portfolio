@@ -83,6 +83,9 @@ footer {
   body {
     padding: 0px 25px;
   }
+  .about-section h1 {
+    margin-top: 180px;
+  }
   footer {
     font-size: 15px;
     text-align: center;
