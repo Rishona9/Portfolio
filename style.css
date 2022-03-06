@@ -113,6 +113,25 @@ body {
 .degree2 {
   font-size: 20px;
 }
+.skills {
+  margin-top: 60px;
+}
+.skill-list {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.certificates {
+  margin-top: 40px;
+}
+.certificate-images {
+  display: flex;
+}
+.intro-certificate,
+.front-end-certificate {
+  max-width: 300px;
+  margin: 20px;
+  margin-top: 30px;
+}
 footer {
   text-align: center;
   margin-top: 70px;
