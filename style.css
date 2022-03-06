@@ -9,17 +9,22 @@ body {
   padding: 0px 100px 0px 100px;
 }
 .initials {
-  color: var(--background-color);
   max-width: 100px;
   max-height: auto;
   padding: 5px 10px 5px 10px;
   border: 3px solid var(--background-color);
   border-radius: 4px;
 }
-
+.hero-main {
+  border-top: 4px solid var(--navbar-color);
+  border-bottom: 4px solid var(--navbar-color);
+  margin-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .hero h3 {
   text-align: center;
-  margin-top: 180px;
+
   font-size: 25px;
   color: var(--secondary-font-color);
 }
