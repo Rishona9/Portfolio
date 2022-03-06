@@ -1,5 +1,5 @@
 :root {
-  --background-color: #112240;
+  --background-color: #150734;
   --navbar-color: #7ed5ea;
   --secondary-font-color: rgb(227, 242, 253);
 }
@@ -73,6 +73,7 @@ body {
 .running-project,
 .weather-project {
   margin-top: 20px;
+  font-size: 20px;
 }
 .runningProject-link {
   text-decoration: none;
