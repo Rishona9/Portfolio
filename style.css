@@ -1,6 +1,7 @@
 :root {
   --background-color: #112240;
-  --navbar-color: rgb(227, 242, 253);
+  --navbar-color: #7ed5ea;
+  --secondary-font-color: rgb(227, 242, 253);
 }
 body {
   background-color: var(--background-color);
@@ -20,6 +21,7 @@ body {
   text-align: center;
   margin-top: 180px;
   font-size: 25px;
+  color: var(--secondary-font-color);
 }
 .hero h1 {
   text-align: center;
@@ -29,6 +31,7 @@ body {
 .hero h2 {
   text-align: center;
   font-size: 25px;
+  color: var(--secondary-font-color);
 }
 .homepage-about {
   text-align: center;
@@ -38,7 +41,6 @@ body {
 .navigation-links {
   display: flex;
   margin-top: 40px;
-
   justify-content: center;
 }
 
@@ -51,7 +53,7 @@ body {
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
-  background: var(--navbar-color);
+  background: var(--secondary-font-color);
   color: var(--background-color);
 }
 .hero p {
@@ -65,6 +67,9 @@ body {
   margin-bottom: 60px;
   font-size: 20px;
 }
+.projects h2 {
+  color: var(--navbar-color);
+}
 .running-project,
 .weather-project {
   margin-top: 20px;
@@ -73,14 +78,14 @@ body {
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
-  background: var(--navbar-color);
+  background: var(--secondary-font-color);
   color: var(--background-color);
 }
 .weatherProject-link {
   text-decoration: none;
   border-radius: 4px;
   padding: 20px 15px;
-  background: var(--navbar-color);
+  background: var(--secondary-font-color);
   color: var(--background-color);
 }
 .contact-section,
@@ -91,13 +96,21 @@ body {
 .contact-section a {
   text-decoration: none;
   font-size: 25px;
-  color: var(--navbar-color);
+  color: white;
 }
 .contact-section a:hover {
   text-decoration: underline;
 }
+.about-section h1,
+.contact-section h1 {
+  font-size: 60px;
+  color: var(--navbar-color);
+}
 .about-section p {
   font-size: 20px;
+}
+.about-section h2 {
+  color: var(--navbar-color);
 }
 .headshot {
   border: 1px solid black;
@@ -123,6 +136,7 @@ body {
 }
 .skills {
   margin-top: 60px;
+  color: var(--navbar-color);
 }
 .skill-list {
   margin-top: 30px;
@@ -130,6 +144,7 @@ body {
 }
 .certificates {
   margin-top: 40px;
+  color: var(--navbar-color);
 }
 .certificate-images {
   display: flex;
