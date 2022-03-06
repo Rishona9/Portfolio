@@ -78,7 +78,8 @@ body {
   background: var(--navbar-color);
   color: var(--background-color);
 }
-.contact-section h1 {
+.contact-section,
+.about-section h1 {
   margin-top: 180px;
 }
 .contact-section a {
@@ -89,9 +90,14 @@ body {
 .contact-section a:hover {
   text-decoration: underline;
 }
+.headshot {
+  border: 1px solid black;
+  border-radius: 50%;
+  max-width: 150px;
+}
 footer {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 @media (max-width: 450px) {
   h1 {
