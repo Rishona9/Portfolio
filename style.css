@@ -71,6 +71,9 @@ body {
   margin-bottom: 60px;
   font-size: 20px;
 }
+.carousel-item {
+  max-width: 500px;
+}
 .projects h2 {
   color: var(--navbar-color);
 }
