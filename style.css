@@ -122,11 +122,10 @@ body {
   border: 1px solid black;
   border-radius: 50%;
   max-width: 250px;
-  margin-left: 30px;
 }
 .about-section .contact-me-link {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 .csulogo {
   max-width: 80px;
