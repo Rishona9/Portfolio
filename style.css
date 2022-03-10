@@ -5,6 +5,7 @@
 }
 body {
   background-color: var(--background-color);
+
   color: white;
   padding: 0px 100px 0px 100px;
 }
@@ -71,15 +72,13 @@ body {
   margin-bottom: 60px;
   font-size: 20px;
 }
-.carousel-item {
-  max-width: 500px;
-}
+
 .projects h2 {
   color: var(--navbar-color);
 }
 .running-project,
 .weather-project {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 20px;
 }
 .runningProject-link {
@@ -152,9 +151,7 @@ body {
   margin-top: 40px;
   color: var(--navbar-color);
 }
-.certificate-images {
-  display: flex;
-}
+
 .intro-certificate,
 .front-end-certificate {
   max-width: 300px;
@@ -173,9 +170,27 @@ footer {
   body {
     padding: 0px 25px;
   }
+  .contact-section h1,
+  .about-section h1,
+  .work-section h1 {
+    margin-top: 80px;
+  }
+  .about-section-body {
+    text-align: center;
+  }
 
+  .degree1 {
+    margin-top: 20px;
+  }
+  li {
+    list-style-type: none;
+  }
+  .intro-certificate,
+  .front-end-certificate {
+    text-align: center;
+  }
   footer {
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 15px;
     text-align: center;
   }
