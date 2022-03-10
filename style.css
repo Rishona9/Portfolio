@@ -165,7 +165,7 @@ footer {
   text-align: center;
   margin-top: 70px;
 }
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 45px;
   }
@@ -183,6 +183,9 @@ footer {
   .projects-below {
     margin-top: 70px;
   }
+  .headshot {
+    max-width: 200px;
+  }
 
   .degree1 {
     margin-top: 30px;
@@ -190,6 +193,7 @@ footer {
   li {
     list-style-type: none;
   }
+
   .intro-certificate,
   .front-end-certificate {
     max-width: 250px;
