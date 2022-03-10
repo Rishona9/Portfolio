@@ -118,15 +118,17 @@ body {
 .about-section h2 {
   color: var(--navbar-color);
 }
+.about-section .contact-me-link {
+  display: flex;
+  justify-content: center;
+  max-width: 125px;
+}
 .headshot {
   border: 1px solid black;
   border-radius: 50%;
   max-width: 250px;
 }
-.about-section .contact-me-link {
-  display: flex;
-  justify-content: left;
-}
+
 .csulogo {
   max-width: 80px;
 }
