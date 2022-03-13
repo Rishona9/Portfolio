@@ -123,6 +123,7 @@ body {
   display: flex;
   justify-content: center;
   max-width: 115px;
+  margin-left: 60px;
 }
 .headshot {
   border: 1px solid black;
@@ -196,7 +197,9 @@ footer .social-links a:hover {
   .headshot {
     max-width: 200px;
   }
-
+  .about-section .contact-me-link {
+    margin-left: 80px;
+  }
   .degree1 {
     margin-top: 30px;
   }
