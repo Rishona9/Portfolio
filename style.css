@@ -16,6 +16,7 @@ body {
   border: 3px solid var(--background-color);
   border-radius: 4px;
 }
+
 .hero-main {
   border-top: 4px solid var(--navbar-color);
   border-bottom: 4px solid var(--navbar-color);
