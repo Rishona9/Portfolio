@@ -142,6 +142,7 @@ body {
 .degree2 {
   font-size: 20px;
 }
+.education,
 .skills {
   margin-top: 60px;
   color: var(--navbar-color);
