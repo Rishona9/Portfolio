@@ -92,7 +92,7 @@ body {
 .weatherProject-link {
   text-decoration: none;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 15px;
   background: var(--secondary-font-color);
   color: var(--background-color);
 }
@@ -109,7 +109,7 @@ body {
   color: white;
 }
 .contact-section a:hover {
-  text-decoration: underline;
+  color: var(--navbar-color);
 }
 
 .about-section p {
