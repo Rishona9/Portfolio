@@ -159,7 +159,8 @@ body {
 }
 
 .intro-certificate,
-.front-end-certificate {
+.front-end-certificate,
+.responsive-certificate {
   max-width: 300px;
   margin: 20px;
   margin-top: 30px;
@@ -211,9 +212,11 @@ footer .social-links a:hover {
   }
 
   .intro-certificate,
-  .front-end-certificate {
+  .front-end-certificate,
+  .responsive-certificate {
     max-width: 250px;
   }
+
   .weather-project-heading {
     margin-top: 70px;
   }
