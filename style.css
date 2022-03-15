@@ -7,7 +7,7 @@ body {
   background-color: var(--background-color);
 
   color: white;
-  padding: 0px 100px 0px 100px;
+  padding: 0 12px;
 }
 .initials {
   max-width: 100px;
@@ -123,7 +123,6 @@ body {
   display: flex;
   justify-content: center;
   max-width: 115px;
-  margin-left: 60px;
 }
 .headshot {
   border: 1px solid black;
@@ -170,7 +169,7 @@ footer {
   margin-top: 70px;
 }
 footer .social-links a {
-  margin: 0 30px;
+  margin: 0 20px;
   color: white;
   font-size: 25px;
 }
@@ -198,9 +197,7 @@ footer .social-links a:hover {
   .headshot {
     max-width: 200px;
   }
-  .about-section .contact-me-link {
-    margin-left: 75px;
-  }
+
   .degree1 {
     margin-top: 30px;
   }
