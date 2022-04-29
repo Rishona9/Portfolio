@@ -170,6 +170,9 @@ body {
 footer {
   margin-top: 70px;
 }
+footer a {
+  text-decoration: none;
+}
 footer .social-links a {
   margin: 0 20px;
   color: white;
