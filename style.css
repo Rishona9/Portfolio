@@ -78,7 +78,8 @@ body {
   color: var(--navbar-color);
 }
 .running-project,
-.weather-project {
+.weather-project,
+.react-weather-project {
   margin-top: 30px;
   font-size: 20px;
 }
