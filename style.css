@@ -161,7 +161,8 @@ body {
 
 .intro-certificate,
 .front-end-certificate,
-.responsive-certificate {
+.responsive-certificate,
+.react-certificate {
   max-width: 300px;
   margin: 20px;
   margin-top: 30px;
@@ -215,7 +216,8 @@ footer .social-links a:hover {
 
   .intro-certificate,
   .front-end-certificate,
-  .responsive-certificate {
+  .responsive-certificate,
+  .react-certificate {
     max-width: 250px;
   }
 
